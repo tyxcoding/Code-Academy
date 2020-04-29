@@ -1,0 +1,182 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: black;
+    position: fixed;
+    height: 69px;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+#logo {
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+#logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 20px;
+    float: right;
+}
+
+nav li {
+    padding: 20px;
+    text-decoration: underline;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav a {
+    color: seashell;
+    opacity: 0.9;
+}
+
+/* Body */
+body {
+    position: relative;
+    top: 69px;
+}
+
+/* Mission */
+#mission {
+    background-image: url(/Volumes/2TB%20SSD/CODING/Projects/CodeAcademy/Tea%20Cozy/resources/images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 1200px;
+    background-color: black;
+}
+
+/* Featured */
+#featured {
+    margin: 80px auto;
+    width: 1000px;
+}
+
+#featured h4 {
+    margin: 0 auto;
+}
+
+#teas {
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture {
+    height: 200px;
+    width: 300px;
+    margin: 5px 15px 50px 15px;
+}
+
+.picture h4 {
+    position: relative;
+    top: 210px;
+}
+
+#berryblitz {
+    background-image: url(/Volumes/2TB%20SSD/CODING/Projects/CodeAcademy/Tea%20Cozy/resources/images/img-berryblitz.jpg);
+    background-size: cover;
+}
+
+#spiced-rum {
+    background-image: url(/Volumes/2TB%20SSD/CODING/Projects/CodeAcademy/Tea%20Cozy/resources/images/img-spiced-rum.jpg);
+    background-size: cover;
+}
+
+#donut {
+    background-image: url(/Volumes/2TB%20SSD/CODING/Projects/CodeAcademy/Tea%20Cozy/resources/images/img-donut.jpg);
+    background-size: cover;
+}
+
+#myrtle-ave {
+    background-image: url(/Volumes/2TB%20SSD/CODING/Projects/CodeAcademy/Tea%20Cozy/resources/images/img-myrtle-ave.jpg);
+    background-size: cover;
+}
+
+#bedford {
+    background-image: url(/Volumes/2TB%20SSD/CODING/Projects/CodeAcademy/Tea%20Cozy/resources/images/img-bedford-bizarre.jpg);
+    background-size: cover;
+}
+
+/* Locations */
+#locations {
+    margin: 0 auto;
+    height: 580px;
+    width: 1200px;
+    background-image: url(/Volumes/2TB%20SSD/CODING/Projects/CodeAcademy/Tea%20Cozy/resources/images/img-locations-background.jpg);
+    background-size: cover;
+    display: block;
+}
+
+#locations h2 {
+    margin: 0;
+    position: relative;
+    top: 87px;
+}
+
+#location-boxes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -38px;
+}
+
+.location {
+    height: 300px;
+    width: 300px;
+    margin: 40px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact */
+#contact h2 {
+    margin-top: 10px;
+    margin-bottom: 40px
+}
+
+#contact h5 {
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    float: left;
+    font-size: 0.5em;
+    font-style: italic;
+    margin: 15px;
+} 
+
+footer h5 {
+    margin: 0;
+}
